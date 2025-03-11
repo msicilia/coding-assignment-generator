@@ -1,0 +1,21 @@
+prompt-template: "prompt.txt"
+banned_elements:
+  - "break"
+  - "return statements that are not the last sentence of a function."
+  - "Do not use Python bulit-in functions like sum()."
+
+required_elements:
+  - "list"
+
+test_case_hints: 
+  - "Use cases that may give a positive or negative result."
+
+additional_requirements:
+  - "Generate comments using docstring conventions."
+
+problem_statements:
+  - "Write a function that takes a list of integers and returns the sum of all the elements in the list."
+  - "Write a function that takes a list of integers and returns the average of all the elements in the list."
+
+example_config:
+  - produce-python-docs: true

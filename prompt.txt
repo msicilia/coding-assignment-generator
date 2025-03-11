@@ -1,0 +1,15 @@
+Write Python code to solve the following problem:
+{problem_statement}
+
+You cannot use the following Python elements:
+{banned_elements}
+
+You must use the following Python elements:
+{required_elements}
+
+When writing some example test cases take into account the following:
+{test_case_hints}
+
+Take into account the following additional requirements:
+{additional_requirements}
+
