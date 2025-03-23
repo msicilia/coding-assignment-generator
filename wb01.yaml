@@ -1,0 +1,28 @@
+config_name: "WB01"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "functions"
+
+required_elements:
+  - "No required elements"
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "Do not use calls to input() to read data from the keyboard. Use variables instead to exercise the code."
+
+problem_statements:
+  - "Write code that displays the area of a square using two variables, one to store the side length and one to store the area."
+  - "Write code that displays the area of a square using a single variable."
+  - "Write a code that calculates the tax payable by a taxpayer based on his annual income and number of sons. The tax payable is one third of the taxable income, the latter being equal to the total income minus a personal deduction of €600 and a further deduction of €60 per son."
+  - "Write code that, given a time (expressed in hours, minutes and seconds), displays the total seconds elapsed since the last midnight and the seconds remaining until the next midnight."
+  - "Write a code that performs the cost calculation for a truck on a trip, knowing that on each trip, the driver records the distance travelled in kilometres, the litres of diesel used, the cost per litre of diesel and other costs (as a single grouped value) of maintaining the truck. As part of the accounting process, the controller needs to calculate, for the truck and the trip, the kilometres travelled per litre, the total cost of the trip and the total cost per kilometre (including maintenance costs)."
+  - "Write a program that, from the length of the sides of a rectangle, calculates its area and perimeter and displays them on the screen."
+  - "Write a program that, from 3 real numbers that you will initialise, calculates their mean, sum total and product total and displays all these data on the screen. Use letters i to n for integer variables and letters x to z for real variables."
+  - "The temperature expressed in degrees Celsius (TC) can be converted to degrees Fahrenheit (TF) using the following formula: TF = (9.0*TC)/5.0 + 32.0 Write a program that, using a certain temperature value in degrees Fahrenheit, displays the equivalent temperature in degrees Celsius and vice versa."
+  - "The basic salary of a salesperson is 2,000 euros per month. To this salary is added 3% commission on the total sales made, but 32% income tax must be deducted from the total obtained. Write a program that, based on the amount of sales made by the salesperson during the last month, shows on the screen the net salary he/she will receive that month."
+  - "The amount in Pounds Sterling (GBP) at the exchange rate of an amount in Euros (EUR) is required. Write a program that, starting from a certain amount in euros and the exchange rate of the day, shows the equivalent in pounds taking into account that the exchange house retains a commission of 2% on the total of the operation."
+
+example_config:
+  - produce-python-docs: false

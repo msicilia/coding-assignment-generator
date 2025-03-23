@@ -1,0 +1,21 @@
+config_name: "WB07"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "match expressions"
+  - "list comprehensions"
+
+required_elements:
+  - "Recursive function calls."
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "No additional requirements."
+
+problem_statements:
+  - "Program a recursive procedure that checks whether or not a certain number is found in a list."
+  - "Implement a program that, given two numbers, calculates the product of recursively. The numbers to be multiplied must be read from the keyboard. NOTE: you cannot use the multiplication operator so use addition."
+  - "Perform a recursive function that given an integer, counts its number of digits."
+  
+produce-python-docs: false

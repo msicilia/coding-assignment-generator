@@ -1,0 +1,23 @@
+config_name: "WB02"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "Data structures in general. The solutions should deal with variables of basic data types."
+  - "Loops"
+  - "Conditional statements"
+
+required_elements:
+  - "functions"
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "The results of the coding has to follow the good practices of modularity, including information hiding, and the use of functions."
+
+problem_statements:
+  - "Implement a 'force' function that returns the value of the physical quantity force from the mass and acceleration values received as parameters. Then build a tester program by specifying the necessary test cases that displays the value of the force to from a given mass and acceleration."
+  - "The Barn is a unit of surface area widely used in particle physics, which is equivalent to 10-28 m². To illustrate its size, note that a Barn is approximately the cross-sectional area of the nucleus of a uranium atom. Program two functions, one allowing to convert units in m² to Barns, and its inverse"
+  - "The Annual Effective Interest Rate (AER) is a function of the annual nominal rate (ANN) and the (integer) number of compounding periods (the number of times in the year that interest becomes part of the principal) according to the following expression: AER=(1 + ANN/m)m-1, where m is the number of periods total of a year (i.e. 12 if monthly, 4 if quarterly, 2 if semiannual, etc.). Write a function that calculates the OER to from the TNA and the number of periods."
+
+
+produce-python-docs: false

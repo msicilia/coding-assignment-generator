@@ -1,0 +1,21 @@
+config_name: "WB04"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "Data structures in general except basic iterations of sequences in loops. "
+  - "match expressions"
+
+required_elements:
+  - "Loops."
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "No additional requirements."
+
+problem_statements:
+  - "Write a program that accepts a year written in Arabic numerals and displays it written in Roman numerals, within the range 1 to 2000. (I=1, V=5, X=10, L=50, C=100, D=500, M=1000)."
+  - "Cada país acuña billetes y monedas de unos determinados valores. Por ejemplo, en los países de la Unión Europea los valores son: 500.0, 200.0, 100.0, 50.0, 20.0, 10.0, 5.0, 2.0, 1.0, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01 euros. Diseña un subprograma para una caja de un supermercado, el cual reciba un importe en euros y la cantidad pagada por el cliente en una compra y muestre al cajero cuántas piezas (billetes y monedas) y de qué tipo debe dar como cambio. Dicha salida no deberá en ningún caso especificar piezas para las que haya que dar cero unidades."
+  - "Write a program that reads a positive integer n and generates a table with the n first powers of 2, 3 and 5."
+
+produce-python-docs: false

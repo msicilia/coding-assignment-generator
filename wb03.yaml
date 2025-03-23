@@ -1,0 +1,23 @@
+config_name: "WB03"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "Data structures in general. The solutions should deal with variables of basic data types."
+  - "Loops"
+  - "match expressions"
+
+required_elements:
+  - "Conditional statements."
+  - "If they are necessary and there is no other option, try-except blocks."
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "Do not use calls to input() to read data from the keyboard. Use variables instead to exercise the code."
+
+problem_statements:
+  - "Write a code that asks the seller for the amount of a purchase: If the purchase is higher than 100EUR a 5% discount is applied if paid in cash, but if the payment is by credit card only 2% is applied. Make sure that the amount of the purchase is a valid number before proceeding with the calculations (hint: use try to to check that it is possible to convert the input to a float)."
+  - "Write a subprogram that reads a time in 24-hour notation and returns in 12-hour notation (example: 6:30 PM will be 6:30 PM). Test it using values entered by the user, but don't forget to validate the entries to make sure they are values in the correct range."
+  - "As you may have noticed, very often we need to validate the information entered by the user. Program a function “validate_integer” that makes sure that a user input is an integer. Note that such input can be anything, for example, a real value, a boolean or even a text like “Hello”. Our function will receive a text and return true if it is an integer (validating the input) or false (rejecting the input)."
+  
+produce-python-docs: false

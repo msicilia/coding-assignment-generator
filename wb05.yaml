@@ -1,0 +1,20 @@
+config_name: "WB05"
+prompt_template: "prompt.txt"
+banned_elements:
+  - "match expressions"
+  - "list comprehensions"
+
+required_elements:
+  - "Lists or tuples"
+
+test_case_hints: 
+  - "No test case hints"
+
+additional_requirements:
+  - "No additional requirements."
+
+problem_statements:
+  - "Write a function that sums two lists of integers of equal length and returns another list containing the sum of the original ones element by element."
+  - "An original list of integers must be used to generate two lists, one with the even numbers from the original sorted ascendingly and another with the odd sorted descendingly. The generation of the 2 lists must be done at as the original one is traversed, i.e., a number is taken from the original one, decides to which list (even or odd) it should go, and is inserted sorted in the same according to the list criteria (ascending or descending)." 
+  - "Create a list of integers, initialize them according to random values in the range 1..20 and compute the average of the values, the highest and the lowest value (all this using lists)."
+produce-python-docs: false
