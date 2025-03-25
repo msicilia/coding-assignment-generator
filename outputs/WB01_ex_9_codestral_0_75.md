@@ -1,0 +1,1 @@
+ The Python code was executed successfully and it calculated the equivalent amount in Pounds Sterling (GBP) based on an input amount in Euros (EUR) and an exchange rate, considering a commission of 2% retained by the exchange house. The result is 86.7 pounds.

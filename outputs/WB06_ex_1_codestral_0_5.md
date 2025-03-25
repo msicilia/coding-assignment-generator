@@ -1,0 +1,5 @@
+ I have defined the Python function `separate_values` which takes a dictionary (dict) and a list (input_list) as input arguments. The function loops through each element in the list. If the element is found in the dictionary, its corresponding value is appended to the list `in_dict`. If the element is not found in the dictionary, it is appended to the list `not_in_dict`. Finally, the function returns two lists: one with values of elements that are present in the dictionary and another with those that aren't.
+
+   To demonstrate the functionality of this code, I provided an example where a dictionary `{1:'a', 2:'b', 3:'c'}` is used along with a list `[1, 2, 'x']`. The output was as expected: `(['a', 'b'], ['x'])`, which means that the values 'a' and 'b' were found in the dictionary for the keys 1 and 2 respectively, while 'x' wasn't present in the dictionary.
+
+   This function can be used with other dictionaries and lists as well to separate their values into two categories based on whether they are present in the given dictionary or not.

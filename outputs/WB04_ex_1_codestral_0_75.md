@@ -1,0 +1,3 @@
+ The code has been executed successfully and the function `calculate_change` is now defined. This function will calculate the change due to a customer for a given purchase amount and payment, considering the available European currency denominations.
+
+   To use this function, you can call it with two arguments: the total cost of the purchase (in euros) and the amount paid by the customer. The function will print out how many pieces of each denomination should be returned as change.

@@ -1,0 +1,1 @@
+The area of the square is: 25

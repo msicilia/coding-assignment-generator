@@ -1,0 +1,5 @@
+ The Python code provided above defines a `Point` class that supports 2D points with x and y coordinates. It includes methods for adding and subtracting points using dictionaries to store the coordinates. The example test cases demonstrate how to create and manipulate points using these functions.
+
+   To solve this problem, I defined a `Point` class with an initializer that takes in optional x and y coordinates (defaulting to 0) and stores them as a dictionary. I then implemented two methods for the class: `__add__`, which adds the x and y coordinates of two points separately, and `__sub__`, which subtracts the coordinates of one point from another.
+
+   The example test cases show how to create two instances of the `Point` class with specific coordinates, add them together using the `+` operator, and then subtract one point from the other using the `-` operator. The results are printed out for each operation.
